@@ -7,7 +7,7 @@ import sys
 from string import Template
 from PIL import Image
 
-IMAGE_FILE = "images/image1.jpg" # specify image path
+IMAGE_FILE = "images/erik-lundqvist.jpg" # specify image path
 TEMPLATE_FILE = "templates/template.html"
 OUTPUT_FILE = "index.html"
 MAX_DEPTH = 3
