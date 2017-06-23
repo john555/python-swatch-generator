@@ -1,12 +1,13 @@
 """
-This is an example of how to use the Pyhton Image Library (PIL) module.
-
+This module generates a color swatch from an image.
+The output can be viewed via the index.html file in a web browser.
+Enjoy!
 """
 import sys
 from string import Template
 from PIL import Image
 
-IMAGE_FILE = "images/image1.jpg"
+IMAGE_FILE = "images/image1.jpg" # specify image path
 TEMPLATE_FILE = "templates/template.html"
 OUTPUT_FILE = "index.html"
 MAX_DEPTH = 3
